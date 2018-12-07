@@ -2,13 +2,17 @@
 
 Filtering out genes by gene names. The data is in multiple columns, first column has gene name and the rest columns start with domain name.
 
+## Usage:
+
+python filter_genes_by_domain_names.py inputfilename
+
 ## Sample test data
 
-'''OBART12G07330.1 Rx_N(start=20, stop=100, evalue=1.9e-13) NB-ARC(start=182, stop=426, evalue=2.2e-52)
+```OBART12G07330.1 Rx_N(start=20, stop=100, evalue=1.9e-13) NB-ARC(start=182, stop=426, evalue=2.2e-52)
 OBART12G07370.1 Rx_N(start=12, stop=99, evalue=5e-21) NB-ARC(start=173, stop=390, evalue=5.8e-48) LRR_8(start=604, stop=642, evalue=0.68)
 OBART12G07970.1 Rx_N(start=30, stop=113, evalue=1.1e-18) NB-ARC(start=190, stop=414, evalue=7.5e-49) DPR8(start=604, stop=642, evalue=0.68)
 OBART12G07330.1 DPR8(start=20, stop=100, evalue=1.9e-13) NB-ARC(start=182, stop=426, evalue=2.2e-52)
-OBART11G22480.1 Rx_N(start=9, stop=89, evalue=1.2e-23) NB-ARC(start=185, stop=392, evalue=8.9e-48) LRR_8(start=513, stop=567, evalue=0.00012) LRR_4(start=850, stop=890, evalue=0.82)'''
+OBART11G22480.1 Rx_N(start=9, stop=89, evalue=1.2e-23) NB-ARC(start=185, stop=392, evalue=8.9e-48) LRR_8(start=513, stop=567, evalue=0.00012) LRR_4(start=850, stop=890, evalue=0.82)```
 
 
 ## Rules to filter out 
